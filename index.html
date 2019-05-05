@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Timeline</title>
+  </head>
+  <body>
+    <h1>Batman's movies</h1>
+    <div id="timeline">
+      <div class="svgplaceholder" data-svgplaceholder="movie1"></div>
+      <div class="svgplaceholder" data-svgplaceholder="movie2"></div>
+      <div class="svgplaceholder" data-svgplaceholder="movie3"></div>
+      <div class="svgplaceholder" data-svgplaceholder="movie4"></div>
+      <div class="svgplaceholder" data-svgplaceholder="movie5"></div>
+      <div class="svgplaceholder" data-svgplaceholder="movie6"></div>
+      <div class="svgplaceholder" data-svgplaceholder="movie7"></div>
+      <div class="svgplaceholder" data-svgplaceholder="movie8"></div>
+      <div class="svgplaceholder" data-svgplaceholder="movie9"></div>
+      <div class="svgplaceholder" data-svgplaceholder="movie10"></div>
+    </div>
+    <template id="template">
+      <h1 data-field="title"></h1>
+      <p data-field="actor"></p>
+      <p data-field="director"></p>
+      <p data-field="revenue"></p>
+    </template>
+  </body>
+  <script type=text/javascript src="script.js"></script>
+</html>

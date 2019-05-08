@@ -7,8 +7,6 @@ function loadSVG() {
     .then(res => res.text())
     .then(svgdata => {
       console.log(svgdata);
-      document
-        .querySelector("#timeline")
-        .insertAdjacentHTML("afterbegin", svgdata);
+      document.querySelector("body").insertAdjacentHTML("afterend", svgdata);
     });
 }

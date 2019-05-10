@@ -1,1 +1,1 @@
-Interactive timeline using SVG, HTML, CSS, JavaScript and JSON.
+Interactive timeline using SVG, HTML, CSS and JavaScript.

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Gotham Nights";
-  src: url("fonts/GothamNights.oft") format("oft");
+  src: url("fonts/GothamNights.oft") format("opentype");
   src: url("fonts/GothamNights.woff2") format("woff2");
   src: url("fonts/GothamNights.woff") format("woff");
   src: url("fonts/GothamNights.ttf") format("truetype");

@@ -3,7 +3,6 @@
   src: url("fonts/GothamNights.oft") format("opentype");
   src: url("fonts/GothamNights.woff2") format("woff2");
   src: url("fonts/GothamNights.woff") format("woff");
-  src: url("fonts/GothamNights.ttf") format("truetype");
 }
 
 * {
@@ -23,7 +22,7 @@ h1 {
   padding-top: 15px;
   padding-left: 15px;
   color: #f7f0f0;
-  font-family: GothamNights, Gotham Nights;
+  font-family: "Gotham Nights";
   font-size: 40px;
 }
 

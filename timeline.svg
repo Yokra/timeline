@@ -9,7 +9,7 @@
 
       .cls-2, .cls-4, .cls-8 {
         fill: #f7f0f0;
-        font-family: GothamNights, Gotham Nights;
+        font-family: "gotham_nightsregular";
       }
 
       .cls-2, .cls-5, .cls-8 {

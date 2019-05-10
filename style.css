@@ -5,6 +5,14 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "Gotham Nights";
+  src: url("fonts/GothamNights.oft") format("oft");
+  src: url("fonts/GothamNights.woff2") format("woff2");
+  src: url("fonts/GothamNights.woff") format("woff");
+  src: url("fonts/GothamNights.ttf") format("truetype");
+}
+
 body {
   background-color: rgb(19, 18, 18);
 }

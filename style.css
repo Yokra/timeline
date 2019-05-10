@@ -1,16 +1,13 @@
-/* image in the end of the timeline src https://assets.change.org/photos/5/yn/af/IHynaFmJTxTWlnI-800x450-noPad.jpg?1509552392
- */
-
-* {
-  margin: 0;
-}
-
 @font-face {
   font-family: "Gotham Nights";
   src: url("fonts/GothamNights.oft") format("oft");
   src: url("fonts/GothamNights.woff2") format("woff2");
   src: url("fonts/GothamNights.woff") format("woff");
   src: url("fonts/GothamNights.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
 }
 
 body {

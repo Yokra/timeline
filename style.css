@@ -1,7 +1,9 @@
 @font-face {
   font-family: "gotham_nightsregular";
-  src: url("font/gothamnights-webfont.woff2") format("woff2"),
-    url("font/gothamnights-webfont.woff") format("woff");
+  src: url("fonts/gothamnights-webfont.woff2") format("woff2"),
+    url("fonts/gothamnights-webfont.woff") format("woff"),
+    url("fonts/gothamnights-webfont.ttf") format("truetype"),
+    url("fonts/gothamnights-webfont.svg#gotham_nightsregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }

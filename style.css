@@ -1,8 +1,9 @@
 @font-face {
-  font-family: "Gotham Nights";
-  src: url("fonts/GothamNights.oft") format("opentype");
-  src: url("fonts/GothamNights.woff2") format("woff2");
-  src: url("fonts/GothamNights.woff") format("woff");
+  font-family: "gotham_nightsregular";
+  src: url("font/gothamnights-webfont.woff2") format("woff2"),
+    url("font/gothamnights-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -22,7 +23,7 @@ h1 {
   padding-top: 15px;
   padding-left: 15px;
   color: #f7f0f0;
-  font-family: "Gotham Nights";
+  font-family: "gotham_nightsregular";
   font-size: 40px;
 }
 
@@ -72,4 +73,8 @@ ellipse {
   to {
     transform: translateY(1px);
   }
+}
+
+text {
+  font-family: "gotham_nightsregular";
 }
